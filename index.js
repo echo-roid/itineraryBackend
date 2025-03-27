@@ -21,7 +21,7 @@ const db = mysql.createConnection({
 
 
 app.use(cors({
-    origin: ["https://itinerary-ai.vercel.app", "https://itinerary-ai.vercel.app/itinerary"], // Add allowed origins
+    origin: ["https://itinerary-ai.vercel.app","https://itinerary-backend-khaki.vercel.app", "https://itinerary-backend-khaki.vercel.app/create-itinerary","https://itinerary-backend-khaki.vercel.app/itinerary"], // Add allowed origins
     methods: ["GET", "POST", "PUT", "DELETE"], // Allowed methods
     allowedHeaders: ["Content-Type", "Authorization"] // Allowed headers
   }));
